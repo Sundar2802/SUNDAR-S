@@ -1,4 +1,15 @@
-import  "./App.css";
+import React from 'react';
+import BasicForm from './Day-2/BasicForm.jsx';
+
+function App() {
+  return(
+    <div>
+      <BasicForm/>
+    </div>
+  );
+}
+export default App;
+/*import  "./App.css";
 import React from 'react';
 import MaterialButton from './Day-4/MaterialButton';
 function App() {
@@ -10,7 +21,7 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
 /*import React from 'react';
 import FruitSurvey from "./Day-4/FruitSurvey";
 function App() {
