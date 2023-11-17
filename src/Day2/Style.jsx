@@ -19,15 +19,14 @@ const Style = () => {
           fontsize: "16px",
         }}
       >
-        "Inline styles look and operate much like CSS, with a few differences.
-        Inline styles directly affect the tag they are written in, without the
-        use of selectors. Here’s a basic HTML page using inline styles.HTML is
-        meant for conveying structured information. CSS is built to style that
-        structured information. When inline styles are used, this clear
-        separation between structured information and styling is blurred. By
-        separating the CSS from the HTML, the markup can be semantic, which
-        means that it can convey as much meaning as possible without being
-        muddled by visual effects."
+        The style attribute works in the same way as any other HTML attribute.
+        We use style, followed by the equality sign (=), and then a quote where
+        all of the style values will be stored using the standard CSS
+        property-value pairs - "property: value;". We can have as many
+        property-value pairs as we want as long as we separate them with a
+        semicolon, It's worth noting that the style attribute is typically used
+        in the opening HTML tag because that's the part of the HTML element that
+        can contain text, data, an image, or nothing at all.
       </p>
     </div>
   );
