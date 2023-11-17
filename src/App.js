@@ -11,7 +11,6 @@ function App() {
 }
 
 export default App;
-
 /*import React from 'react';
 import FruitSurvey from "./Day-4/FruitSurvey";
 function App() {
